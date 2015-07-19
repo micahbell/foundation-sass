@@ -1,0 +1,26 @@
+.logout {
+  background-color: pink;
+}
+
+.primary-nav, .secondary-nav, .main-content {
+  height: $content-height;
+}
+
+.primary-nav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+// .icon-bar {
+//   margin-left: -15px;
+//   // padding-top: 12vh;
+//   * {
+//     // padding: 6px 8px 4px;
+//   }
+//   a label {
+//     font-size: 0.875em;
+//   }
+// }
+
+.secondary-nav {
+  background-color: rgba(255, 255, 255, 0.92);
+}

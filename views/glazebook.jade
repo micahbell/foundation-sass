@@ -1,0 +1,70 @@
+extends layout
+
+block content
+  .container
+    .row
+      .contain-to-grid.medium-12.columns
+        nav.top-bar.data-topbar(role='navigation')
+          ul.title-area
+            li.name
+              h1
+                a(href='') the glazebook
+          .top-bar-section
+            ul.right  
+              li
+                input(type='text' placeholder='Search')
+              li
+                input(type='submit' value='O')
+              li.has-dropdown.logout
+                a(href='') User
+                  ul.dropdown 
+                    li 
+                      a(href='') Logout
+    
+    .row  
+      .medium-1.columns.show-for-medium-up.primary-nav
+        ul.side-nav(role='navigation')
+          li(role='menuitem')
+            img(scr='')
+            a(href='') User
+          li(role='menuitem')
+            img(scr='')
+            a(href='') Recipes
+          li(role='menuitem')
+            img(scr='')
+            a(href='') Temp
+          li(role='menuitem')
+            img(scr='')
+            a(href='') Surface
+          //- .icon-bar.vertical.four-up
+          //-   a.item(href='')
+          //-     img(src='')
+          //-     label User
+          //-   a.item(href='')
+          //-     img(src='')
+          //-     label Recipes
+          //-   a.item(href='')
+          //-     img(src='')
+          //-     label Temp
+          //-   a.item(href='')
+          //-     img(src='')
+          //-     label Surface
+      .medium-4.columns.secondary-nav
+        ul.side-nav
+          li 
+            a(href='') All Recipes
+          li 
+            a(href='') Favorites
+          li 
+            a(href='') Recently Added
+          li.divider
+          li
+            a(href='') Dynamic Content
+      .medium-7.columns.main-content
+        .row  
+          .medium-8.columns
+            p Title
+          .medium-2.columns
+            p Fav
+          .medium-2.columns
+            p Tested

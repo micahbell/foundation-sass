@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif; }
+
+body {
+  background-image: url("../images/glaze-book-bg7.jpg");
+  background-size: cover; }
+
+.container {
+  padding: 40px 0px; }
+
+.columns {
+  border: 1px solid #dcd9d9; }
+
+.main-content {
+  background-color: #fff; }
+
+.primary-nav, .secondary-nav, .main-content {
+  height: 600px; }
+
+.primary-nav {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.secondary-nav {
+  background-color: rgba(255, 255, 255, 0.92); }
