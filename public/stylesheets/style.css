@@ -14,6 +14,9 @@ body {
 .main-content {
   background-color: #fff; }
 
+.logout {
+  background-color: pink; }
+
 .primary-nav, .secondary-nav, .main-content {
   height: 600px; }
 
