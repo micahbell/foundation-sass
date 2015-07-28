@@ -2,7 +2,7 @@ body {
   font-family: sans-serif; }
 
 body {
-  background-image: url("../images/glaze-book-bg7.jpg");
+  background-image: url("../images/bg2.jpg");
   background-size: cover; }
 
 .container {
@@ -22,6 +22,15 @@ body {
 
 .primary-nav {
   background-color: rgba(0, 0, 0, 0.8); }
+  .primary-nav ul {
+    margin-top: 15vh; }
+    .primary-nav ul li {
+      text-align: center; }
+      .primary-nav ul li img {
+        margin-bottom: -6px; }
+      .primary-nav ul li a {
+        margin-left: -14px; }
 
 .secondary-nav {
-  background-color: rgba(255, 255, 255, 0.92); }
+  background-color: rgba(255, 255, 255, 0.95);
+  filter: blur(100px); }
